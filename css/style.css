@@ -1,0 +1,214 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default {
+  margin: 0;
+  border-color: grey;
+  background-color: grey;
+  padding: 1rem 1rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+#title {
+  padding: 7rem 5rem;
+  max-width: 100%;
+  background-color: #FFA562;
+  color: white;
+}
+
+.centerImage {
+  text-align: center;
+}
+
+#scottImage {
+  border-radius: 50%;
+  margin: 5rem 0 5rem 0;
+  min-width: 15%;
+  text-align: center;
+}
+
+#title h1 {
+  font-size: 7rem;
+}
+
+#portfolio h1,
+#about h1, 
+#contact h1 {
+  font-size: 6rem;
+}
+
+p {
+  font-size: 2rem
+}
+
+#title hr,
+#about hr {
+  border: none;
+  height: 0.7rem;
+  background-color: white;
+}
+
+#portfolio hr,
+#contact hr {
+  border: none;
+  height: 0.7rem;
+  background-color: black;
+}
+
+#portfolio {
+  padding: 7rem 5rem;
+  max-width: 100%;
+  background-color: white;
+}
+
+#portfolio p {
+  font-size: 1.7rem;
+}
+
+.portfolioExtra {
+  display: none;
+}
+
+.fa-angle-double-down {
+  border: solid black 2px;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+}
+
+#about {
+  padding: 7rem 5rem;
+  max-width: 100%;
+  background-color: #FFA562;
+  color: white;
+}
+
+#about p {
+  padding: 0 10% 0 10%;
+}
+
+#resumeLinkContainer {
+  max-width: 100%;
+}
+
+#resumeLink a {
+  width: 14rem;
+  border: solid white 3px;
+  border-radius: 1rem;
+}
+
+#contact {
+  padding: 7rem 5rem 0 5rem;
+  max-width: 100%;
+  background-color: white;
+  
+}
+
+a,
+a:hover,
+a:visited {
+  color: white;
+}
+
+#contact a,
+#contact a:hover,
+#contact a:visited {
+  color: black;
+}
+
+.expand a,
+.expand a:hover,
+.expand a:visited {
+  color: #FFA562;
+}
+
+#footer {
+  color: white;
+  background-color: grey;
+  padding: 1rem 0;
+}
+
+#footer a {
+  color: #FFA562; 
+}
+
+@media (max-width:1145px) {
+  
+  img {
+    width: 300px;
+  }
+  
+}
+
+@media (max-width:742px) {
+  #title h1,
+  #portfolio h1,
+  #about h1,
+  #contact h1 {
+    font-size: 5rem;
+  }
+  #about p {
+    padding: 0;
+  }
+  img {
+    width: 275px;
+  }
+  hr {
+    width: 100px;
+  }
+}
+
+@media (max-width:432px) {
+  #title h1,
+  #portfolio h1,
+  #about h1,
+  #contact h1 {
+    font-size: 3rem;
+  }
+  #about p {
+    padding: 0;
+  }
+  img {
+    width: 200px;
+  }
+  hr {
+    width: 75px;
+  }
+}
+
+@media (max-width:355px) {
+  #title h1,
+  #portfolio h1,
+  #about h1,
+  #contact h1 {
+    font-size: 3rem;
+  }
+  #about p {
+    padding: 0;
+  }
+  img {
+    width: 200px;
+  }
+  hr {
+    width: 75px;
+  }
+}
